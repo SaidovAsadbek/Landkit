@@ -1,1 +1,1 @@
-# Landkit
+URL = https://themes.getbootstrap.com/preview/?theme_id=23273
