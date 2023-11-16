@@ -154,3 +154,33 @@
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
 }
+
+.dropdown-img-start {
+    background-image: url("../image/photo-3.jpg");
+    padding: 2.375rem 2.5rem;
+    position: relative;
+}
+
+.dropdown-img-start::after {
+    content: '';
+    background-color: #335eeab1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.dropdown-img-start > * {
+    z-index: 100;
+    position: relative;
+}
+
+.navbar-nav .nav-item:first-child .dropdown-menu {
+    width: 42rem !important;
+    left: -50%;
+}
+
+.navbar-nav .nav-item .dropdown-menu {
+    transform: translateX(-35%);
+}
